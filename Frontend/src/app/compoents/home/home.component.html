@@ -1,0 +1,92 @@
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <div class="logo">
+              <img src="assets/images/logo.jpeg" alt="Logo">
+            </div>
+            <h1 class="company-title">TechStore</h1>
+          </div>
+          <div class="navbar-menu">
+            <a href="#" class="active"><i class="fas fa-home"></i> Accueil</a>
+            <a href="#"><i class="fas fa-tags"></i> Promotions</a>
+            <a href="#"><i class="fas fa-shopping-cart"></i> Panier <span class="cart-count">0</span></a>
+            <a href="#"><i class="fas fa-user"></i> Compte</a>
+          </div>
+    </nav>
+  
+    <!-- Contenu principal -->
+    <div class="container">
+      <header>
+        <h2>Catalogue de Produits</h2>
+        <div class="search-bar">
+          <input type="text" placeholder="Rechercher un produit..." id="search-input" disabled>
+          <button disabled><i class="fas fa-search"></i></button>
+        </div>
+      </header>
+  
+      <!-- Filtrage par catégorie -->
+      <div class="category-filter">
+        <h3>Catégories</h3>
+        <div class="category-buttons">
+          <button class="category-btn active">Tous les produits</button>
+          <button class="category-btn">Smartphones</button>
+          <button class="category-btn">PC Portables</button>
+          <button class="category-btn">Accessoires</button>
+        </div>
+      </div>
+  
+      <!-- Grille des produits -->
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="assets/images/pt.jpeg" alt="Produit 1" width="60" height="50">
+          </div>
+          <div class="product-info">
+            <div class="product-category">Smartphone</div>
+            <div class="product-name">iPhone 13</div>
+            <div class="product-price">899 €</div>
+            <div class="product-stock">En stock</div>
+            <div class="product-actions">
+              <button class="btn btn-details">Détails</button>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/300x200?text=Produit+2" alt="Produit 2">
+          </div>
+          <div class="product-info">
+            <div class="product-category">PC Portable</div>
+            <div class="product-name">Dell XPS 13</div>
+            <div class="product-price">1299 €</div>
+            <div class="product-stock">En stock</div>
+            <div class="product-actions">
+              <button class="btn btn-details">Détails</button>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/300x200?text=Produit+3" alt="Produit 3">
+          </div>
+          <div class="product-info">
+            <div class="product-category">Accessoire</div>
+            <div class="product-name">Casque Bluetooth</div>
+            <div class="product-price">149 €</div>
+            <div class="product-stock">En stock</div>
+            <div class="product-actions">
+              <button class="btn btn-details">Détails</button>
+              <button class="btn btn-cart">Ajouter</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </body>
